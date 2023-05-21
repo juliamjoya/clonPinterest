@@ -1,4 +1,37 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+#navbar-pinterest {
+    position: absolute;
+    flex: none;
+    flex-direction: column;
+}
+
+.finder {}
+
+#content {}
+
+#pinterest-icon {}
+
+#pinterest-icon:hover {}
+
+#notification {}
+
+#notification:hover {}
+
+#message {}
+
+#message:hover {}
+
+#profile-img {}
+
+#profile-img:hover {}
+
+.card-image {}
+
+.card-image:hover {}
+
+media-query {}
