@@ -2,21 +2,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 #navbar-pinterest {
-    position: absolute;
-    flex: none;
-    flex-direction: column;
+    position: fixed;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
 }
 
-.finder {}
+/* .styleBoxPinterest {
+    background-color: #ec1e1e;
+    border: 3px solid #000000;
+    padding: 3px;
+    margin: 2px;
+    height: 2rem;
+} */
 
-#content {}
+#inputFinder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E1E1E1;
+    border-radius: 24px;
+    width: 59%;
+    height: 3rem;
+}
 
-#pinterest-icon {}
+.finder {
+    width: 90%;
+    height: 2rem;
+    background-color: #E1E1E1;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+#icono-search {
+    /* padding-right: 0.5rem; */
+    width: 1rem;
+    height: 1rem;
+}
+
+#content {
+    /* background-color: #bcc3c4; */
+    padding-top: 6rem;
+}
+
+#pinterest-icon {
+    background-color: #ffffff;
+    padding: 3px;
+    margin: 2px;
+    height: 2rem;
+    border-radius: 50%;
+}
 
 #pinterest-icon:hover {}
+
+#star {
+    background-color: #000000;
+    border-radius: 30%;
+    padding: 3px;
+    margin: 2px;
+    height: 2rem;
+}
+
+#star a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#explorer a {
+    text-decoration: none;
+    color: #000000;
+}
 
 #notification {}
 
@@ -29,6 +93,8 @@
 #profile-img {}
 
 #profile-img:hover {}
+
+#subMenuProfile {}
 
 .card-image {}
 
